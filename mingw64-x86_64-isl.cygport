@@ -2,7 +2,7 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-isl"
-VERSION=0.11.1
+VERSION=0.14.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Integer Set Library for Win64 toolchain"
@@ -15,7 +15,7 @@ It also includes an ILP solver based on generalized basis reduction, transitive
 closures on maps (which may encode infinite graphs), dependence analysis and
 bounds on piecewise step-polynomials."
 HOMEPAGE="http://isl.gforge.inria.fr/"
-SRC_URI="http://isl.gforge.inria.fr/isl-${VERSION}.tar.lzma"
+SRC_URI="http://isl.gforge.inria.fr/isl-${VERSION}.tar.xz"
 SRC_DIR="isl-${VERSION}"
 
 MAKEOPTS+=" LDFLAGS=-no-undefined"
